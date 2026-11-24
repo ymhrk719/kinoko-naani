@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="kiS3mv4dB0Pjr3o-PT4cjgBYtnwuAvG7IhbPtL5SPuI" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>きのこ なあに？ | 無料で遊べる、声で答えるキノコの名前当てクイズ</title>
+<meta name="description" content="無料で遊べる子ども向けキノコクイズ。キノコの名前を声で答える名前当てゲームと、全72種の水彩イラスト図鑑。毒キノコの見分けも学べます。登録不要、日本語と英語に対応。">
+<link rel="canonical" href="https://ymhrk719.github.io/kinoko-naani/">
+<link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:title" content="きのこ なあに？ | 無料で遊べる、声で答えるキノコの名前当てクイズ">
+<meta property="og:description" content="無料で遊べる子ども向けキノコクイズ。キノコの名前を声で答える名前当てゲームと、全72種の水彩イラスト図鑑。毒キノコの見分けも学べます。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ymhrk719.github.io/kinoko-naani/">
+<meta property="og:image" content="https://ymhrk719.github.io/kinoko-naani/img/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"きのこ なあに？","url":"https://ymhrk719.github.io/kinoko-naani/"}
+</script>
+<style>
+  :root{
+    --bg:#fff8ec;
+    --card:#ffffff;
+    --ink:#5d4126;
+    --ink-soft:#8a6a45;
+    --pink:#d94f6a;
+    --pink-soft:#fdeef1;
+    --gold:#d9a441;
+    --line:#f0ddba;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Yu Gothic UI","Yu Gothic",sans-serif;
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px;}
+  h2{
+    font-size:1.4rem;text-align:center;margin:0 0 1.1em;color:var(--ink);
+  }
+  h2::after{
+    content:"";display:block;width:56px;height:3px;border-radius:2px;
+    background:var(--gold);margin:.5em auto 0;opacity:.85;
+  }
+  section{padding:52px 0 8px;}
+  p{margin:0 0 1em;}
+
+  /* ---------- hero ---------- */
+  header.hero{
+    text-align:center;
+    padding:64px 0 0;
+    background:
+      radial-gradient(90% 120% at 50% 0%, #fffdf6 0%, var(--bg) 70%);
+  }
+  .hero .icon{
+    width:120px;height:120px;border-radius:26px;
+    box-shadow:0 8px 24px rgba(93,65,38,.18);
+  }
+  .hero h1{font-size:2.1rem;margin:.45em 0 .15em;letter-spacing:.04em;}
+  .hero .tag{color:var(--ink-soft);font-size:1.05rem;margin:0 0 1.4em;}
+  .stores{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:0 0 8px;}
+  .store-badge{display:block;height:54px;width:147px;}
+  .store{
+    display:inline-block;padding:10px 22px;border-radius:999px;
+    border:2px solid var(--line);background:var(--card);color:var(--ink-soft);
+    font-size:.95rem;font-weight:700;
+  }
+  .store.soon{opacity:.75;}
+  .hero .banner{
+    display:block;width:100%;max-width:880px;margin:28px auto 0;
+  }
+
+  /* ---------- features ---------- */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:20px 22px;
+  }
+  .card h3{margin:.1em 0 .5em;font-size:1.08rem;color:var(--pink);}
+  .card p{margin:0;color:var(--ink-soft);font-size:.96rem;}
+
+  /* ---------- screenshots ---------- */
+  .shots{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;
+  }
+  .shots img{
+    width:100%;border-radius:14px;border:1px solid var(--line);
+    box-shadow:0 4px 14px rgba(93,65,38,.10);display:block;
+  }
+  .shots figcaption{text-align:center;color:var(--ink-soft);font-size:.9rem;margin-top:6px;}
+  figure{margin:0;}
+
+  /* ---------- notes / footer ---------- */
+  .notes{
+    background:var(--pink-soft);border:1px dashed var(--gold);border-radius:14px;
+    padding:18px 22px;color:var(--ink-soft);font-size:.95rem;
+  }
+  footer{
+    text-align:center;color:var(--ink-soft);font-size:.9rem;
+    padding:44px 0 40px;margin-top:48px;border-top:1px solid var(--line);
+  }
+  footer a{color:var(--pink);}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="icon" src="img/icon.jpg" alt="きのこ なあに？ アプリアイコン">
+    <h1>きのこ なあに？</h1>
+    <p class="tag">声で答える、キノコの名前当てクイズ。<br>全72種の水彩イラスト図鑑つき。</p>
+    <div class="stores">
+      <a class="badge-link" href="https://apps.apple.com/jp/app/%E3%81%8D%E3%81%AE%E3%81%93-%E3%81%AA%E3%81%82%E3%81%AB-%E3%82%AD%E3%83%8E%E3%82%B3%E5%90%8D%E5%89%8D%E5%BD%93%E3%81%A6%E3%82%AF%E3%82%A4%E3%82%BA/id6837152148"><img class="store-badge" src="img/badge-appstore-ja.svg" alt="App Storeからダウンロード" width="147" height="54"></a>
+      <!-- 公開後に Google Play のリンクへ差し替え -->
+      <span class="store soon">Google Play： 準備中</span>
+    </div>
+  </div>
+  <img class="banner" src="img/banner.jpg" alt="水彩で描かれたキノコたち">
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>どんなアプリ？</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>声で答えるクイズ</h3>
+        <p>キノコのイラストが出たら、名前を声で言って答えます。まだ字が読めない子でも遊べます。声が使えないときは、3つの中から選ぶ答え方もできます。</p>
+      </div>
+      <div class="card">
+        <h3>全72種の図鑑</h3>
+        <p>スーパーで買えるキノコ24種と、森のキノコ48種。水彩タッチのイラストに、色・大きさ・生える場所などの豆知識が付いています。</p>
+      </div>
+      <div class="card">
+        <h3>毒キノコも学べる</h3>
+        <p>毒キノコには「どく」マーク付き。見分け方を知ることで、森のキノコは「見るだけ」という約束も自然に学べます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>画面イメージ</h2>
+    <div class="shots">
+      <figure>
+        <img src="img/shot-home.jpg" alt="ホーム画面">
+        <figcaption>ホーム画面</figcaption>
+      </figure>
+      <figure>
+        <img src="img/shot-quiz.jpg" alt="クイズ画面">
+        <figcaption>声で答えるクイズ</figcaption>
+      </figure>
+      <figure>
+        <img src="img/shot-zukan.jpg" alt="図鑑一覧">
+        <figcaption>キノコ図鑑</figcaption>
+      </figure>
+      <figure>
+        <img src="img/shot-detail.jpg" alt="図鑑の詳細">
+        <figcaption>図鑑の詳細</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>保護者の方へ</h2>
+    <div class="notes">
+      <p>・対象は未就学〜小学校低学年のお子さまです。アカウント登録は不要で、アプリ内に外部リンクや課金要素はありません。</p>
+      <p>・広告は子ども向け設定のバナー広告のみを表示します。</p>
+      <p>・キノコのイラストは、実物を参考にAIで描いたイメージです。森のキノコは見つけても食べず、「見るだけ」がお約束です。</p>
+      <p style="margin:0">・難易度は3段階、日本語と英語に対応しています。</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><a href="privacy-policy.html">プライバシーポリシー</a></p>
+    <p>© 2026 Yamabuki Haruki</p>
+  </div>
+</footer>
+
+</body>
+</html>
